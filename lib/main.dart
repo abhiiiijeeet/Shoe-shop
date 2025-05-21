@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shopping_app/home_page.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -23,8 +23,19 @@ class MyApp extends StatelessWidget {
           prefixIconColor: Color.fromRGBO(119, 119, 119, 1)
         ),
         colorScheme: ColorScheme.fromSeed(seedColor:Color.fromRGBO(254, 206, 1,1),
-        primary: Color.fromRGBO(254, 206, 1,1))
+        primary: Color.fromRGBO(254, 206, 1,1)),
+        textTheme: TextTheme(
+          titleMedium:TextStyle(
+            fontWeight: FontWeight.w700,
+            fontSize: 20
+          ) ,
+           bodySmall: const TextStyle(
+          fontWeight: FontWeight.w700,
+          fontSize: 16,
+  ),
+        ),
       ),
+      
       
       debugShowCheckedModeBanner: false,
       title: 'Shopping App',
