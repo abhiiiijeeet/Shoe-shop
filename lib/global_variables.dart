@@ -5,7 +5,7 @@ final products = [
     'sizes' : [7,8,9,10,11],
     'price' : 149.99,
     'company' : 'Nike',
-    'imageUrl' : '/assests/images/shoes_1.png',
+    'imageUrl' : 'assets/images/shoes_1.png',
   },
   {
     'id'  : '1',
@@ -13,7 +13,7 @@ final products = [
     'sizes' : [6,7,8,9],
     'price' : 179.99,
     'company' : 'Addidas',
-    'imageUrl' : '/assests/images/shoes_2.png',
+    'imageUrl' : 'assets/images/shoes_2.png',
   },
   {
     'id'  : '2',
@@ -21,7 +21,7 @@ final products = [
     'sizes' : [8,9,10],
     'price' : 129.99,
     'company' : 'Bata',
-    'imageUrl' : '/assests/images/shoes_3.png',
+    'imageUrl' : 'assets/images/shoes_3.png',
   },
   {
     'id'  : '3',
@@ -29,7 +29,7 @@ final products = [
     'sizes' : [7,8,9,10,11],
     'price' : 89.99,
     'company' : 'Addidas women\'s shoes',
-    'imageUrl' : '/assests/images/shoes_4.png',
+    'imageUrl' : 'assets/images/shoes_4.png',
   }
 ];
 
@@ -40,6 +40,6 @@ final cart = [
     'sizes' : 9,
     'price' : 89.99,
     'company' : 'Addidas women\'s shoes',
-    'imageUrl' : '/assests/images/shoes_4.png',
+    'imageUrl' : 'assets/images/shoes_4.png',
   }
 ];
